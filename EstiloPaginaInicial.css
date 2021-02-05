@@ -1,0 +1,43 @@
+#BarraInicial{
+	background-color: #E5A44A;
+	height: 100px;
+}
+
+#EstiloInput{
+}
+#estrela1_flutuante{
+	float:right;
+	margin-right: 150px;
+}
+#estrela2_flutuante{
+	margin-left: 109px;
+	margin-top: 350px;
+}
+#fonte{
+	margin-top: 10px;
+	font-family: IM FELL English,Sitka Display;
+	font-size:50px;
+}
+#fraseEfeito{
+	float:right;
+	margin-top: 100px;
+	font-family: IM FELL English,Sitka Display;
+	font-size:58px;
+	margin-right: 40px;
+}
+#estiloLabel{
+	float: right;
+}
+#Label{
+	font-family: IM FELL English,Sitka Display;
+	font-size: 30px;
+}
+.col-1{
+	margin-top: 30px;
+}
+.col_{
+	margin-top: 16px;
+}
+#botaoCadastro{
+	float: right;
+}

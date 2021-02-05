@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Jane (@JaneAusten)-Perfil MyCharacter</title>
+	<link rel="icon" type="image/png" href="fenix.png">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<style type="text/css">
+		#fonte{
+		font-family: IM FELL English,Sitka Display;
+		font-size:30px;
+		float:right;
+		}
+
+		#barra{
+			border: none;
+			border-bottom: 1px solid black;
+		}
+		a{
+			color: black;
+		}
+		#icon{
+			margin-top: 20px;
+			float:right;
+		}
+		#cabecalho{
+			background-color: white;
+			border-bottom: 1px solid black;
+		}
+		.Perfil{
+			border-radius: 100px;
+			width: 200px;
+			height: 200px;
+			margin:auto;
+			margin-top: 50px;
+			float:right;
+		}
+		#fontePerfil{
+			font-family: Courier New;
+			font-size:30px;
+		}
+		#button{
+			background-color: #efebe9;
+			border-radius: 10px;
+			border:3px solid grey;
+		}
+		#botaoMenu{
+			border:none;
+			border-top:1px solid black;
+			font-size: 10px;
+			
+		}
+		#botaoInativo{
+			border:none;
+			font-size: 10px;
+			color:grey;
+		}
+		#imgPublicacao{
+			width: 253.67px;
+			height: 253.67px;
+
+		}
+		#CentralizaContainer{
+			justify-content: center;
+			align-items: center;display: flex;
+			flex-direction: row;
+		}
+	</style>
+</head>
+<body style="background-color: #efebe9;">
+	<div class="container-fluid" id="cabecalho">
+		<div class="row">
+  			<div class="col">
+  				<img src="fenix.png" style="float:right; margin-top: 5px;">
+  			</div>
+  			<div class="col">
+  				<p id="fonte" style="float:left; margin-top: 20px;">MyCharacter</p>
+  			</div>
+  			<div class="col">
+  				<i class="material-icons prefix" style="float: left; margin-top: 20px;">search</i>
+  				<div class="col">
+  			  	<form>
+  					<div class="form-group">
+    					<input type="text" id="barra" placeholder="Pesquisar" style="float:left;">
+  					</div>
+  				</form>
+  			</div>
+  			</div>
+  			<div class="col" id="icon">
+  				<a href="">
+    					<i class="medium material-icons">home</i>
+    			</a>
+    			<a href="">
+    				<i class="medium material-icons">mail_outline</i>
+    			</a>
+    			<a href="">
+    				<i class="medium material-icons">class</i>
+    			</a>
+    			<a href="">
+    				<i class="medium material-icons">favorite_border</i>
+    			</a>
+  			</div>
+		</div>
+	</div>
+	<div class="container">
+  		<div class="row">
+    		<div class="col-sm">
+      			<img src="Jane Austen.jpg" class="Perfil">
+    		</div>
+    		<div class="col-sm" style="margin-top: 60px;">
+      			<p id="fontePerfil"> Jane_Austen</p>
+      			<div class="row">
+      				<div class="col-md-auto">
+      					<p><b>2</b> Characters <b>6 </b> Publicações <b>1</b> Histórias <br>
+      						<b>1.205</b> Seguidores <b>178</b> Seguindo  <b>45</b> Histórias Seguindo</p>
+      				</div>
+      			</div>
+      			<div class="row">
+      				<div class="col-md-auto">
+      					<p>Este é um perfil imaginativo da famosa escritora inglesa do século XIX Jane Austen</p>
+      				</div>
+      			</div>
+    		</div>
+    		<div class="col-sm"style="margin-top: 60px;">
+      			<button id="button">Editar perfil</button>
+      			<i class="large material-icons" style="margin-left: 10px;">settings</i>
+    		</div>
+  		</div>
+	</div>
+	<br>
+	<div class="container" style="border-top: 1px solid grey;">
+		<div class="row">
+    		<div class="col">
+      			<p align="center"> <button id="botaoMenu"><i class=" material-icons">border_all</i><b>Publicações</b></button></p>
+      			<br>
+      			<br>
+    		</div>
+    		<div class="col">
+      			<p align="center"> <button id="botaoInativo" ><i class=" material-icons">face</i><b>Characters</b></button></p>
+    		</div>
+  		</div>
+	</div>
+	<div class="container" id="CentralizaContainer">
+      			<div class="row">
+      				<div class="col-md-auto">
+      					<img src="Jane Austen Novels.jpg" id="imgPublicacao">
+      				</div>
+      				<div class="col-md-auto">
+      					<img src="jane.jpg" id="imgPublicacao">
+      				</div>
+      				<div class="col-md-auto">
+      					<img src="imagem.jpg" id="imgPublicacao">
+      				</div>
+      			</div>
+    </div>
+    <br>
+    <div class="container" id="CentralizaContainer">
+    	<div class="row">
+      				<div class="col-md-auto">
+      					<img src="festinha.jpg" id="imgPublicacao">
+      				</div>
+      				<div class="col-md-auto">
+      					<img src="img.jpg" id="imgPublicacao">
+      				</div>
+      				<div class="col-md-auto">
+      					<img src="novels.jpg" id="imgPublicacao">
+      				</div>
+      			</div>
+    </div>
+</body>
+</html>
